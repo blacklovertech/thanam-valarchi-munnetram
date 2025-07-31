@@ -34,14 +34,23 @@ All colors MUST be HSL.
     --trust-gold: 48 85% 70%;
     --trust-green-light: 158 45% 85%;
     --trust-gold-light: 48 60% 90%;
+    --trust-green-dark: 158 80% 15%;
+    --trust-gold-dark: 48 95% 50%;
 
     /* Gradients */
     --gradient-trust: linear-gradient(135deg, hsl(var(--trust-green)), hsl(var(--trust-gold)));
     --gradient-hero: linear-gradient(180deg, hsl(var(--trust-green-light)), hsl(var(--background)));
+    --gradient-card: linear-gradient(145deg, hsl(var(--background)), hsl(var(--trust-green-light) / 0.1));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--trust-gold)), hsl(var(--trust-gold-dark)));
 
     /* Shadows */
-    --shadow-trust: 0 4px 20px hsl(var(--trust-green) / 0.2);
-    --shadow-gold: 0 2px 12px hsl(var(--trust-gold) / 0.3);
+    --shadow-trust: 0 8px 32px hsl(var(--trust-green) / 0.15);
+    --shadow-gold: 0 4px 20px hsl(var(--trust-gold) / 0.25);
+    --shadow-elegant: 0 10px 40px hsl(var(--trust-green) / 0.1);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
